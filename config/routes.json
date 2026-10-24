@@ -1,0 +1,26 @@
+{
+  "city": "Austin, TX",
+  "routes": [
+    {
+      "routeId": "hill",
+      "name": "Westlake Hills to Downtown",
+      "terrain": "hilly",
+      "start": { "lat": 30.2960, "lon": -97.8095 },
+      "end": { "lat": 30.2672, "lon": -97.7431 }
+    },
+    {
+      "routeId": "flat",
+      "name": "East Austin loop",
+      "terrain": "flat",
+      "start": { "lat": 30.2620, "lon": -97.7180 },
+      "end": { "lat": 30.2905, "lon": -97.6950 }
+    },
+    {
+      "routeId": "mixed",
+      "name": "South Lamar to the Capitol",
+      "terrain": "mixed",
+      "start": { "lat": 30.2390, "lon": -97.7860 },
+      "end": { "lat": 30.2747, "lon": -97.7404 }
+    }
+  ]
+}

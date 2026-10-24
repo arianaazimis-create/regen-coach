@@ -6,9 +6,14 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "fetch-routes": "tsx --env-file-if-exists=.env.local scripts/fetch-routes.ts",
+    "generate-trips": "tsx --env-file-if-exists=.env.local scripts/generate-trips.ts",
+    "coach": "tsx --env-file-if-exists=.env.local scripts/coach.ts",
+    "data": "npm run fetch-routes && npm run generate-trips && npm run coach"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^1.3.0",
     "next": "16.4.3",
     "react": "19.3.0",
     "react-dom": "19.3.0"
@@ -19,6 +24,7 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.4.3",
+    "tsx": "^4.23.15",
     "typescript": "^5"
   }
 }

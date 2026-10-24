@@ -1,0 +1,20 @@
+[
+  {
+    "routeId": "hill",
+    "name": "Westlake Hills to Downtown",
+    "terrain": "hilly",
+    "distanceM": 7865
+  },
+  {
+    "routeId": "flat",
+    "name": "East Austin loop",
+    "terrain": "flat",
+    "distanceM": 5333
+  },
+  {
+    "routeId": "mixed",
+    "name": "South Lamar to the Capitol",
+    "terrain": "mixed",
+    "distanceM": 7707
+  }
+]
